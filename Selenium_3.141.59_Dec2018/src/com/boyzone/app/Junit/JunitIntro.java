@@ -1,4 +1,4 @@
-package com.boyzone.app.Juit;
+package com.boyzone.app.Junit;
 
 
 
