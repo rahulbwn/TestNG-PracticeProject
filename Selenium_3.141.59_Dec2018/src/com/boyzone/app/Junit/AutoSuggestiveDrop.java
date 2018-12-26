@@ -62,7 +62,7 @@ public class AutoSuggestiveDrop {
 	System.out.println("href of Imaages is"+element.getAttribute("href"));
 	}
 	
-
+//
 	@After
 	public void tearDown() throws Exception {
 		Thread.sleep(2000);
