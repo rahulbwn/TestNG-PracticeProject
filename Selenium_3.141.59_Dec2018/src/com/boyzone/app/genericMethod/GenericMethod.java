@@ -1,5 +1,7 @@
 package com.boyzone.app.genericMethod;
 
+package GenericMethods;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,31 +24,31 @@ public class GenericMethod {
 		
 		if(type.equals("id"))
 		{
-			System.out.println("Element id is having locator: "+locator);
+			System.out.println("Element found with ID: "+locator);
 			element= this.driver.findElement(By.id(locator));
 		}
 		
 		else if(type.equals("xpath"))
 		{
-			System.out.println("Element xpath is having locator: "+locator);
+			System.out.println("Element found with xpath: "+locator);
 			element= this.driver.findElement(By.xpath(locator));
 		}
 		
 		else if(type.equals("cssselector"))
 		{
-			System.out.println("Element cssselector is having locator: "+locator);
+			System.out.println("Element found with cssselector: "+locator);
 			element= this.driver.findElement(By.cssSelector(locator));
 		}
 		
 		else if(type.equals("linktext"))
 		{
-			System.out.println("Element linktext is having locator: "+locator);
+			System.out.println("Element found with linktext: "+locator);
 			element= this.driver.findElement(By.linkText(locator));
 		}
 		
 		else if(type.equals("partiallinktext"))
 		{
-			System.out.println("Element partiallinktext is having locator: "+locator);
+			System.out.println("Element found with partiallinktext: "+locator);
 			element= this.driver.findElement(By.partialLinkText(locator));
 		}
 		
@@ -65,37 +67,45 @@ public class GenericMethod {
 		type=type.toLowerCase();
 		if(type.equals("id"))
 		{
-			System.out.println("Element id is having locator: "+locator);
+			
 			element= this.driver.findElements(By.id(locator));
 		}
 		
 		else if(type.equals("xpath"))
 		{
-			System.out.println("Element xpath is having locator: "+locator);
+			
 			element= this.driver.findElements(By.xpath(locator));
 		}
 		
 		else if(type.equals("cssselector"))
 		{
-			System.out.println("Element cssselector is having locator: "+locator);
+			
 			element= this.driver.findElements(By.cssSelector(locator));
 		}
 		
 		else if(type.equals("linktext"))
 		{
-			System.out.println("Element linktext is having locator: "+locator);
+			
 			element= this.driver.findElements(By.linkText(locator));
 		}
 		
 		else if(type.equals("partiallinktext"))
 		{
-			System.out.println("Element partiallinktext is having locator: "+locator);
+		
 			element= this.driver.findElements(By.partialLinkText(locator));
 		}
 		
 		else
 		{
 			System.out.println("Locator Type not Supported: "+type+" Locator: "+locator);
+		}
+		if(element.isEmpty())
+		{
+			System.out.println("Element not found with "+type+" :"+locator);
+		}
+		else
+		{
+			System.out.println("Element found with "+type+" :"+locator);
 		}
 		
 		return element;
