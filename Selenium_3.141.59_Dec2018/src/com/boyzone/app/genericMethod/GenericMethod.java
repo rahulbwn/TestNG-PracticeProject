@@ -1,6 +1,5 @@
 package com.boyzone.app.genericMethod;
 
-package GenericMethods;
 
 import java.util.ArrayList;
 import java.util.List;

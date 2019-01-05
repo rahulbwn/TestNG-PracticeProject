@@ -1,4 +1,5 @@
-package test123;
+package com.boyzone.app.genericMethod;
+
 
 import java.util.List;
 

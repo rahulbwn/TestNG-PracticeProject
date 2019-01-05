@@ -18,7 +18,7 @@ public class StateofElement {
 
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Rahul\\workspace\\chromedriver_new\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\Rahul\\workspace\\chromedriver_new\\chromedriver.exe");
 		//System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Rahul\\\\eclipse-workspace\\\\chromedriver_win32\\\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
