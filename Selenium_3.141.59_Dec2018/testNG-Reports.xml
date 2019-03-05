@@ -1,0 +1,11 @@
+<suite name="Regression Suite">
+	<test name="Application Test">
+
+		<classes>
+			<class name="TestN.Reporter_demo"></class>
+		</classes>
+		>
+	</test>
+
+	
+</suite>
