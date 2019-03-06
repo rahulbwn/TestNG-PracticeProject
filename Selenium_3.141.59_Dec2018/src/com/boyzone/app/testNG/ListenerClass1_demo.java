@@ -1,14 +1,16 @@
-package TestN;
+package com.boyzone.app.testNG;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.AfterClass;
 
-import com.TestngListeners.CustomListener1;
+import com.TestNGListeners.CustomListener1;
 
 
-//@Listeners(CustomListener1.class)
+
+
+@Listeners(CustomListener1.class)
 public class ListenerClass1_demo {
 	
 	

@@ -1,4 +1,4 @@
-package GenericMethods;
+package com.boyzone.app.genericMethod;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

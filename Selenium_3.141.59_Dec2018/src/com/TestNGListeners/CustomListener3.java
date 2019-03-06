@@ -1,4 +1,4 @@
-package com.TestngListeners;
+package com.TestNGListeners;
 
 import org.testng.ISuite;
 import org.testng.ISuiteListener;

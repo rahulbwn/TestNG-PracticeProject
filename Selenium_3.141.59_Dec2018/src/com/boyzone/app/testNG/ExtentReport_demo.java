@@ -1,4 +1,4 @@
-package TestN;
+package com.boyzone.app.testNG;
 
 import java.util.concurrent.TimeUnit;
 

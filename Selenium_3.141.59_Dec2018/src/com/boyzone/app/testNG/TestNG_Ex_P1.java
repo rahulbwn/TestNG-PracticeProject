@@ -1,4 +1,4 @@
-package TestN;
+package com.boyzone.app.testNG;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

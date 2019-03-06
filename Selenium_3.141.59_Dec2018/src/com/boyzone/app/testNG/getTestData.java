@@ -1,4 +1,4 @@
-package TestN;
+package com.boyzone.app.testNG;
 
 import org.testng.annotations.DataProvider;
 
