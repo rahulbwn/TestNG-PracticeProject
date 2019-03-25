@@ -9,5 +9,12 @@
 	<classpathentry kind="lib" path="E:/Java_Workspace/selenium-java-3.141.59/libs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="E:/Java_Workspace/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="E:/Java_Workspace/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/testing libs/extentreports-2.40.1.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/testing libs/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/testing libs/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/testing libs/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/testing libs/sqlite-jdbc-3.8.11.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/testing libs/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="E:/Java_Workspace/testing libs/testng-6.14.3-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
